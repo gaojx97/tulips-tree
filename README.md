@@ -40,8 +40,10 @@ Thanks to the [Grey Li's](https://github.com/greyli) flask book, I got great imp
 	
 - Now, we can start the flask app
 
-	
+
+	flask forge
 	flask run -h 0.0.0.0
+	
 **Remember!** Cannot omit the *-h 0.0.0.0* which will cause a problem.
 
 ---
