@@ -1,7 +1,7 @@
 FROM python:3.7-slim
 LABEL maintainer="Mojerro <mojerro@163.com>"
 WORKDIR /site/
-ADD . /site/
+ADD https://github.com/gaojx97/tulips-tree.git /site/
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
