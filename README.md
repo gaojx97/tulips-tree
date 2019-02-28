@@ -33,18 +33,17 @@ Thanks to the [Grey Li's](https://github.com/greyli) flask book, I got great imp
 	docker build -t yourname/repo .
 	docker run -p 5000:5000 -it yourname/repo
 
-- Then you will get into the virtual environment like this,
+- Then you will get into the docker environment like this when you are running on ubuntu,
 
 
+	root@demo:~/tulips-tree# docker run -p 5000:5000 -it mojerro/tulips
 	 * Serving Flask app "albumy" (lazy loading)
 	 * Environment: development
 	 * Debug mode: on
 	 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 	 * Restarting with inotify reloader
 	 * Debugger is active!
-	 * Debugger PIN: 269-380-375
-
-The 
+	 * Debugger PIN: 325-836-657 
 
 Now, you can use **username:** *mojerro@tulips.com*  &  **password:** *TulipsTree*
 to login as administration.
