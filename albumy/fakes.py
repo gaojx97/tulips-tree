@@ -22,7 +22,7 @@ fake = Faker()
 def fake_admin():
     admin = User(name='Mojerro',
                  username='mojerro',
-                 email='mojerro@126.com',
+                 email='mojerro@tulips.com',
                  bio=fake.sentence(),
                  website='https://github.com/gaojx97',
                  confirmed=True)

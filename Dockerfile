@@ -10,4 +10,4 @@ RUN pip3 install -r requirements.txt
 RUN flask forge
 
 EXPOSE 5000
-CMD ["/bin/bash"]
+CMD ["/bin/bash", "-c", "flask run -h 0.0.0.0"]
