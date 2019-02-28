@@ -46,7 +46,7 @@ Thanks to the [Grey Li's](https://github.com/greyli) flask book, I got great imp
 
 ---
 ##TODO:
-- [ ] Add plants classification system
+- [ ] Add plants classification system - in progress
 - [ ] Update database form structure
 - [ ] Update pages' appearance
 - [ ] Update Dockerfile to further decrease the steps to start app
