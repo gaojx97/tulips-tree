@@ -46,6 +46,8 @@ Thanks to the [Grey Li's](https://github.com/greyli) flask book, I got great imp
 	
 **Remember!** Cannot omit the *-h 0.0.0.0* which will cause a problem.
 
+Now, you can use admin: Mojerro
+
 ---
 ##TODO:
 - [ ] Add plants classification system - in progress

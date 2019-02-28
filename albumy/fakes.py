@@ -20,14 +20,14 @@ fake = Faker()
 
 
 def fake_admin():
-    admin = User(name='Grey Li',
-                 username='greyli',
-                 email='admin@helloflask.com',
+    admin = User(name='Mojerro',
+                 username='mojerro',
+                 email='mojerro@126.com',
                  bio=fake.sentence(),
-                 website='http://greyli.com',
+                 website='https://github.com/gaojx97',
                  confirmed=True)
-    admin.set_password('helloflask')
-    notification = Notification(message='Hello, welcome to Albumy.', receiver=admin)
+    admin.set_password('TulipsTree')
+    notification = Notification(message='Hello, welcome to TulipsTree.', receiver=admin)
     db.session.add(notification)
     db.session.add(admin)
     db.session.commit()
