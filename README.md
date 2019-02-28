@@ -36,17 +36,22 @@ Thanks to the [Grey Li's](https://github.com/greyli) flask book, I got great imp
 - Then you will get into the virtual environment like this,
 
 
-	root@43e0cda0f2d5:/site#
-	
-- Now, we can start the flask app
+	 * Serving Flask app "albumy" (lazy loading)
+	 * Environment: development
+	 * Debug mode: on
+	 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+	 * Restarting with inotify reloader
+	 * Debugger is active!
+	 * Debugger PIN: 269-380-375
 
-	
-	flask run -h 0.0.0.0
-**Remember!** Cannot omit the *-h 0.0.0.0* which will cause a problem.
+The 
+
+Now, you can use **username:** *mojerro@tulips.com*  &  **password:** *TulipsTree*
+to login as administration.
 
 ---
 ##TODO:
-- [ ] Add plants classification system
+- [ ] Add plants classification system - in progress
 - [ ] Update database form structure
 - [ ] Update pages' appearance
 - [ ] Update Dockerfile to further decrease the steps to start app
