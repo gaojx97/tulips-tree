@@ -50,9 +50,10 @@ to login as administration.
 
 ---
 ##TODO:
+- [ ] i18n support
+- [ ] Update pages' appearance
 - [ ] Add plants classification system - in progress
 - [ ] Update database form structure
-- [ ] Update pages' appearance
 - [ ] Update Dockerfile to further decrease the steps to start app
 - [ ] Migrate images from EVS(Elastic Volume Service) to OBS(Object Storage Service)
 - [ ] Register domain name
