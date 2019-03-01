@@ -25,7 +25,7 @@ class Operations:
 
 
 class BaseConfig:
-    ALBUMY_ADMIN_EMAIL = os.getenv('ALBUMY_ADMIN', 'admin@helloflask.com')
+    ALBUMY_ADMIN_EMAIL = os.getenv('ALBUMY_ADMIN', 'mojerro@tulips.com')
     ALBUMY_PHOTO_PER_PAGE = 12
     ALBUMY_COMMENT_PER_PAGE = 15
     ALBUMY_NOTIFICATION_PER_PAGE = 20
@@ -35,7 +35,7 @@ class BaseConfig:
     ALBUMY_MANAGE_TAG_PER_PAGE = 50
     ALBUMY_MANAGE_COMMENT_PER_PAGE = 30
     ALBUMY_SEARCH_RESULT_PER_PAGE = 20
-    ALBUMY_MAIL_SUBJECT_PREFIX = '[Albumy]'
+    ALBUMY_MAIL_SUBJECT_PREFIX = '[TulipsTree]'
     ALBUMY_UPLOAD_PATH = os.path.join(basedir, 'uploads')
     ALBUMY_PHOTO_SIZE = {'small': 400,
                          'medium': 800}
@@ -57,9 +57,9 @@ class BaseConfig:
     MAIL_SERVER = os.getenv('MAIL_SERVER')
     MAIL_PORT = 465
     MAIL_USE_SSL = True
-    MAIL_USERNAME = os.getenv('MAIL_USERNAME')
+    MAIL_USERNAME = os.getenv('MAIL_USERNAME', 'apikey')
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
-    MAIL_DEFAULT_SENDER = ('Albumy Admin', MAIL_USERNAME)
+    MAIL_DEFAULT_SENDER = 'TulipsTree Admin'
 
     DROPZONE_ALLOWED_FILE_TYPE = 'image'
     DROPZONE_MAX_FILE_SIZE = 3
