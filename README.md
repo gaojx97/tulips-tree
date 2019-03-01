@@ -49,7 +49,7 @@ Now, you can use **username:** *mojerro@tulips.com*  &  **password:** *TulipsTre
 to login as administration.
 
 ---
-##TODO:
+## TODO:
 - [ ] i18n support
 - [ ] Update pages' appearance
 - [ ] Add plants classification system - in progress
