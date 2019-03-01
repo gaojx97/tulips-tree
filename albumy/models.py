@@ -240,6 +240,10 @@ class Photo(db.Model):
     collectors = db.relationship('Collect', back_populates='collected', cascade='all')
     tags = db.relationship('Tag', secondary=tagging, back_populates='photos')
 
+    # add plants information by xxx-xxx-xxxx-xx format, for more information check GB/T 14467-1993 standard of China
+    plants_id = db.Column(db.String(12))
+    checked = db.Column(db.Boolean, default=False)
+
 
 @whooshee.register_model('name')
 class Tag(db.Model):
